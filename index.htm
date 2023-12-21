@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+   
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+
+
+
+
+</head>
+<body>
+    <div id="entete">
+        <header>
+            <!-- 
+                Pour crééer rapidement un logo
+                https://www.canva.com/templates/?query=logo  
+            -->
+           <img id="entete__logo" src="images/logo.png" alt="logo">
+           
+
+            <h1>Rockstar games</h1> 
+            <!-- https://svgbox.net/ -->
+            <!--
+                id peut être utilisée une seule fois dans le document
+                La même classe  peut être utiliser plusieurs fois 
+            -->
+            <input type="checkbox" id="chk_burger">
+            <label id="burger" for="chk_burger">
+                <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu-alt-1&color=000" width="32" height="32">
+                <img src="https://s2.svgbox.net/hero-solid.svg?ic=x&color=000" width="32" height="32">
+            </label>
+            
+            <nav class="navigation">
+                <a href="#accueil">Accueil</a>
+                <a href="#horaire">Horaire</a>
+                <a href="#galerie">galerie</a> 
+                <a href="#video">video</a>
+                <a href="#inscription">inscription</a>
+            </nav>
+        </header> 
+    </div> <!-- fin .entete -->
+   <div id="accueil">
+    <section >
+        <h2>Accueil</h2>
+      
+    </section>
+   </div> <!-- fin #accueil -->
+   <div id="horaire">
+    <section>
+        <h2>Horaire</h2>
+<table>
+    <tr>
+        <th></th>
+        <th>LUN</th>
+        <th>MAR</th>
+        <th>MER</th>
+        <th>JEU</th>
+        <th>VEN</th>
+        
+        </tr>
+        <tr>
+        
+        <th>8h</th> <!-- heure -->
+        <td></td> <!-- lundi -->
+        <td></td> <!-- mardi -->
+        <td rowspan="4" class="cours">Création vidéo</td> <!-- mercredi-->
+        <td rowspan="3" class="cours">Mise en page web</td> <!-- jeudi -->
+        <td rowspan="3" class="cours">Création vidéo</td> <!-- vendredi -->
+        </tr>
+        
+        <tr>
+            <th>9h</th> <!-- heure -->
+            <td rowspan="4" class="cours">Mise en page web</td> <!-- lundi -->
+            <td rowspan="4" class="cours">Conception grap</td> <!-- mardi -->
+            <!-- mercredi-->
+             <!-- jeudi -->
+         <!-- vendredi -->
+        </tr>
+        
+        <tr>
+            <th>10h</th> <!-- heure -->
+             <!-- lundi -->
+            <!-- mardi -->
+           <!-- mercredi-->
+             <!-- jeudi -->
+             <!-- vendredi -->
+        </tr>
+        
+        
+        <tr>
+            <th>11h</th> <!-- heure -->
+             <!-- lundi -->
+            <!-- mardi -->
+            <!-- mercredi-->
+            <td></td>
+            <td></td>
+        
+        </tr>
+        
+        
+        <tr>
+            <th>12h</th> <!-- heure -->
+            <!-- lundi -->
+         <!-- mardi -->
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+        
+        <tr>
+            <th>13h</th> <!-- heure -->
+            <td></td> <!-- lundi -->
+            <td></td> <!-- mardi -->
+            <td rowspan="3" class="cours">Animation et in</td> <!-- mercredi-->
+            <td></td>
+            <td rowspan="4" class="cours">Anglais</td> <!-- vendredi -->
+        </tr>
+        
+        
+        <tr>
+            <th>14h</th> <!-- heure -->
+            <td rowspan="2" class="cours">Éduc</td> <!-- lundi -->
+            <td rowspan="4" class="cours">Animation et in</td> <!-- mardi -->
+            <!-- mercredi-->
+            <td rowspan="4" class="cours">Conception grap</td> <!-- jeudi -->
+            <!-- vendredi -->
+        </tr>
+        
+        
+        <tr>
+            <th>15h</th> <!-- heure -->
+            <!-- lundi -->
+             <!-- mardi -->
+             <!-- mercredi-->
+            <!-- jeudi -->
+             <!-- vendredi -->
+        </tr>
+        
+        <tr>
+                 <th>16h</th> <!-- heure -->
+                <td rowspan="3" class="cours">Francais</td> <!-- lundi -->
+                 <!-- mardi -->
+                <td rowspan="3" class="cours">Francais</td> <!-- mercredi-->
+                 <!-- jeudi -->
+              <!-- vendredi -->
+        </tr>
+        
+        <tr>
+            <th>17h</th> <!-- heure -->
+            <!-- lundi -->
+            <!-- mardi -->
+             <!-- mercredi-->
+            <!-- jeudi -->
+            <td></td>
+        </tr>
+        
+        <tr>
+        <th>18h</th> <!-- heure -->
+         <!-- lundi -->
+        <!-- mardi -->
+        <!-- mercredi-->
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+</table>
+
+    </section>
+    
+   </div> <!-- fin #horaire -->
+
+   <div id="galerie">
+    <section >
+        <h2>galerie</h2>
+      
+    </section>
+</div>
+
+
+<div id="video">
+    <section >
+        <h2>Video</h2>
+      
+    </section>
+   </div>
+
+
+
+
+   <div id="inscription">
+    <section>
+        <h2>Inscription</h2>
+        <!-- https://www.w3schools.com/html/html_forms.asp -->
+         <form action="" class="formulaire">
+            <label class="form__nom" for="">Nom<input type="text"></label>
+            <label class="form__prenom" for="">Nom<input type="text"></label>
+           <fieldset class="langage">
+            <legend>Langage</legend>
+            <label for="chk__html">HTML<input id="chk__html" type="checkbox"  id=""></label>
+            <label for="">CSS<input type="checkbox"  id=""></label>
+            <label for="">JS<input type="checkbox"  id=""></label>
+            <label for="">PHP<input type="checkbox"  id=""></label>
+            <label for="">MySQL<input type="checkbox"  id=""></label>
+            <label for="">Wordpress<input type="checkbox"  id=""></label>
+        </fieldset>
+        <fieldset>
+            <!-- Pour les radio bouton on créé un groupe en utilisant
+                 la même valeur pour l'attribut name  -->
+            <legend>Age</legend>
+            <label for="rad__1">11-15</label>
+            <input type="radio" name="age" id="rad__1">
+            <label for="rad__2">16-20</label>
+            <input type="radio" name="age" id="rad__2">
+            <label for="rad__3">21-25</label>
+            <input type="radio" name="age" id="rad__3">
+        </fieldset>
+
+
+        </form>
+
+    </section>
+   </div> <!-- fin #inscription -->
+   <div id="contact">
+    <footer >
+        Pied de page
+    </footer>
+   </div>
+</body>
+</html>
