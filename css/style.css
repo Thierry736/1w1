@@ -42,13 +42,13 @@ body  > div {
  
 }
 #entete{
-
+    display: flex;
     font-family: 'Titan One', sans-serif;
     
 }
 #entete__logo{
-   width: 80px;
-   height: 80px;
+   width: 166px;
+   height: 132px;
    
 }
 #galerie{
@@ -134,7 +134,7 @@ background-image: url("../images/ImagePersonnageJeu.jpg");
     }
     
     td{
-    background-color: #00cafc25;
+    background-color: #00cafc49;
     color: rgb(255, 153, 0);
     }
     
@@ -143,7 +143,7 @@ background-image: url("../images/ImagePersonnageJeu.jpg");
     
     .cours{
         border: 1px solid #aaaaaa;
-        background-color: rgba(0, 0, 0, 0.562);
+        background-color: rgba(0, 0, 0, 0.349);
     }
     
     
