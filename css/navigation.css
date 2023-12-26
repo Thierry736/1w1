@@ -50,7 +50,10 @@ et on rend l'image burger invisible
     display: none;
 }
 
+a:hover{
 
+    background-color: rgba(229, 255, 0, 0.37);
+}
 .navigation a {
     color : #fff;
 }

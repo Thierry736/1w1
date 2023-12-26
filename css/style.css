@@ -23,6 +23,12 @@ body{
     
 } 
 
+
+
+.epreuve__article {
+    display: flex;
+  flex-direction: column;
+}
 /*
 opérateur de sélection « > » permet de sélectionner
  l'enfant direct de la balise qui précède le «>»
@@ -41,22 +47,43 @@ body  > div {
     justify-content: center;
  
 }
+
+
+.recherche{
+    margin: 50px;
+}
 #entete{
     display: flex;
     font-family: 'Titan One', sans-serif;
-    
+    z-index: 10;
 }
 #entete__logo{
    width: 166px;
    height: 132px;
    
 }
+.accueil{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #galerie{
    
 background-color: rgba(240, 255, 255, 0);
 
 }
-
+.images{
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+}
+.video{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    color:aqua;
+}
 body > div > section,
 body > div > footer,
 body > div > header {
@@ -113,7 +140,9 @@ background-image: url("../images/ImagePersonnageJeu.jpg");
 
     }
 
-
+    #articles{
+        background-image: url("../images/PolicierDansLeJeu.jpg");
+    }
 
 
     table{
@@ -166,4 +195,25 @@ background-image: url("../images/ImagePersonnageJeu.jpg");
 h1 {
     font-family: "Rubik Doodle Shadow";
     font-size: 50px;
+}
+
+
+footer{ color: white;
+    background-color: black;
+margin-top: 0px ;
+height: 277px;
+padding: 0px 50px 40px 40px;
+
+}
+footer section{
+    margin: 0 0 0 0;
+display: inline-block;
+vertical-align: top;
+width: 33%;
+text-align:left;
+padding-top: 45px;
+margin-top: 10px;
+}
+.pied{
+    margin-top: 35px;
 }

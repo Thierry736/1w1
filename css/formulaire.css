@@ -14,6 +14,7 @@ https://developer.mozilla.org/fr/docs/web/css/css_selectors
     background-color: #bbb;
     display : flex;
     gap: 10px;
+    padding-right: 10px;
 }
 .formulaire legend {
     font-size: 1.5rem;

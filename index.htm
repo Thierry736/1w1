@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/formulaire.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/articles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 
@@ -34,8 +35,10 @@
             -->
            <img id="entete__logo" src="images/logo.png" alt="logo">
 
-            <h1>Rockstar games</h1> 
-            <input type="text" placeholder="Rechercher                                              &#128269;">
+           <h1>
+            Rockstar games
+           </h1>
+            <input class="recherche" type="text" placeholder="Rechercher                   &#128269;">
             <!-- https://svgbox.net/ -->
             <!--
                 id peut être utilisée une seule fois dans le document
@@ -43,28 +46,60 @@
             -->
             <input type="checkbox" id="chk_burger">
             <label id="burger" for="chk_burger">
-                <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu-alt-1&color=000" width="32" height="32">
-                <img src="https://s2.svgbox.net/hero-solid.svg?ic=x&color=000" width="32" height="32">
+                <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu-alt-1&color=000" alt="burger" width="32" height="32">
+                <img src="https://s2.svgbox.net/hero-solid.svg?ic=x&color=000" alt="X" width="32" height="32">
             </label>
             
             <nav class="navigation">
                 <a href="#accueil">Accueil</a>
                 <a href="#horaire">Horaire</a>
-                <a href="#galerie">galerie</a> 
-                <a href="#video">video</a>
-                <a href="#inscription">inscription</a>
+                <a href="#galerie">Galerie</a> 
+                <a href="#video">Video</a>
+                <a href="#articles">Articles</a>
+                <a href="#inscription">Inscription</a>
             </nav>
         </header> 
     </div> <!-- fin .entete -->
+
    <div id="accueil">
-    <section >
-        <h2>Accueil</h2>
-      
+    <section>
+        <h2>
+            Accueil
+        </h2>
+        <div class="accueil">
+            <section>
+                <h2>TP2</h2>
+                
+                    <p>Rockstar games</p>
+                     <p>Thierry Jean-Francois</p>
+                     
+                   <div class="postal"><p>582-1W1 – Mise en page Web</p></div>
+                
+            </section>
+            <section>
+                <h2>Techniques d’intégration multimédia</h2>
+                <p>Collège de Maisonneuve</p>
+            </section>
+            <div>
+            <div>
+                https://thierry736.github.io/1w1/
+                
+            </div>
+        </div>
+            Automne 2023
+        </div>
+       
+        </section>
+
     </section>
    </div> <!-- fin #accueil -->
+
+
    <div id="horaire">
     <section>
-        <h2>Horaire</h2>
+       <h2>
+        Horaire
+       </h2>
 <table>
     <tr>
         <th></th>
@@ -190,35 +225,84 @@
 
    <div id="galerie">
     <section >
-        <h2>galerie</h2>
-      
+       <h2>
+        Galerie
+       </h2>
+        <div class="images">
+      <img src="images/PhotoGalerie1.jpg" alt="photo1"> <img src="images/photoGalerie2.jpg" alt="photo2"> <img src="images/photoGalerie3.jpg" alt="photo3"> <img src="images/photoGalerie4.jpg" alt="photo4"> <img src="images/photoGalerie5.jpg" alt="photo5">
+        </div>
     </section>
 </div>
 
 <div id="video">
     <section >
-        <h2>Video</h2>
-      
+        <h2>
+            Vidéos
+        </h2>
+        <div class="video">
+            <figure>
+      <img src="images/video1.jpg" alt="video1"> 
+            <figcaption>https://youtu.be/hvoD7ehZPcM?si=TNMqGpvy22rdEJPv</figcaption>
+        </figure>
+        <figure>
+      <img src="images/video2.jpg" alt="video2"> 
+            <figcaption>https://youtu.be/eaW0tYpxyp0?si=fqary3FvvlapwtpK</figcaption>
+        </figure>
+        <figure>
+      <img src="images/video3.jpg" alt="video3">
+      <figcaption>https://youtu.be/oCZgVGFwKo0?si=qqjunrNbEqqJCAUl</figcaption>
+    </figure>
+</div>
     </section>
    </div>
 
 
+   <div id="articles">
+    <section>
+       <h2>
+        Articles
+       </h2>
+        
+   <article class="articles">
+    <!--  Conteneur de chacune des images paragraphe -->
+    <h2>Accessoires</h2>
+    <div class="articles__section">
+    
+      <figure class="articles__figure">
+        <img src="images/cover.webp" alt="Cover" class="articles__img">
+        <figcaption class="articles__figcaption">Pour mettre sur votre ordinateur portable</figcaption>
+      </figure>
+      <p class="articles__paragraphe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusantium veritatis porro vel sit reprehenderit nam quis? Cupiditate, quos esse? Sint nam repellat tempora quos sequi vero dolores expedita quae.</p>
+    </section>
+    <div class="articles__section">
+      <figure class="articles__figure">
+        <img src="images/trousse.jpg"  alt="Trousse" class="articles__img">
+        <figcaption class="articles__figcaption">Grande trousse</figcaption>
+      </figure>
+      <p class="articles__paragraphe">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+         
+            </div>
+                </div>  
+                     </article>
 
    <div id="inscription">
     <section>
-        <h2>Inscription</h2>
+        <h2>
+            Inscription
+        </h2>
         <!-- https://www.w3schools.com/html/html_forms.asp -->
-         <form action="" class="formulaire">
-            <label class="form__nom" for="">Nom<input type="text"></label>
-            <label class="form__prenom" for="">Nom<input type="text"></label>
+         <form class="formulaire">
+            <label class="form__nom">Nom<input type="text"></label>
+            <label class="form__prenom">Prénom<input type="text"></label>
            <fieldset class="langage">
             <legend>Langage</legend>
-            <label for="chk__html">HTML<input id="chk__html" type="checkbox"  id=""></label>
-            <label for="">CSS<input type="checkbox"  id=""></label>
-            <label for="">JS<input type="checkbox"  id=""></label>
-            <label for="">PHP<input type="checkbox"  id=""></label>
-            <label for="">MySQL<input type="checkbox"  id=""></label>
-            <label for="">Wordpress<input type="checkbox"  id=""></label>
+            <label for="chk__html">HTML<input id="chk__html" type="checkbox"></label>
+            <label>CSS<input type="checkbox"></label>
+            <label>JS<input type="checkbox"></label>
+            <label>PHP<input type="checkbox"></label>
+            <label>MySQL<input type="checkbox"></label>
+            <label>Wordpress<input type="checkbox"></label>
         </fieldset>
         <fieldset>
             <!-- Pour les radio bouton on créé un groupe en utilisant
@@ -237,10 +321,29 @@
 
     </section>
    </div> <!-- fin #inscription -->
-   <div id="contact">
-    <footer >
-        Pied de page
-    </footer>
-   </div>
+   <footer> 
+    <div class="pied">
+        <div>
+            
+            
+            <p>Techniques d’intégration multimédia: création de jeux vidéo, montage vidéo, site web etc.</p> 
+                 <p>&#127968; R. Sherbrooke E/Rue Sherbrooke/QC-138 E et Av. Bourbonnière</p>
+                 
+               <div class="postal"><p></p></div>
+            
+        </div>
+        <section>
+            <h2>Médias sociaux</h2>
+            <img src="images/youtubeLogo.png" alt="youtubeLogo">  <img src="images/InstagramLogo.png" alt="InstagramLogo">  <img src="images/facebookLogo.png" alt="facebookLogo">
+        </section>
+        <section>
+            <img src="images/logoFooter.png" alt="logoFooter"> <h2>Rockstar Games ®</h2>
+        </section>
+    </div>
+    <div class="pied">
+        Avis de confidentialité | Privacy Notice
+    </div>
+   
+</footer>
 </body>
 </html>
